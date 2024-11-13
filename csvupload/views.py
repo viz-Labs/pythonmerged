@@ -100,6 +100,7 @@ def clean_data_for_mysql(data):
 
 @csrf_exempt
 def upload_file(request):
+    print("req")
     if request.method == 'POST':
         host = request.POST.get('host')
         user = request.POST.get('user')
