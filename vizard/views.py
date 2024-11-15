@@ -14,7 +14,7 @@ datasources_collection = db['datasources']
 uniquevalues_collection = db['uniquevalues']
 
 # Create an instance of the Ollama model
-ollama_instance = Ollama(base_url="http://122.176.146.28:11434", model="test07")
+ollama_instance = Ollama(base_url="http://122.176.146.28:11434", model="test09")
 
 # Function to fetch column names and UUIDs
 def fetch_column_info(column_document_id):
